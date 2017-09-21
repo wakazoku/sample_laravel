@@ -15,7 +15,7 @@ laravelのサンプルをためす　　
 <https://readouble.com/laravel/5.1/ja/quickstart.html>  
 <https://github.com/laravel/quickstart-basic>  
 
-* Laravel 5.1 中級者向けタスクリスト
+* Laravel 5.1 中級者向けタスクリスト  
 <https://readouble.com/laravel/5.1/ja/quickstart-intermediate.html>  
 <https://github.com/laravel/quickstart-intermediate>  
 
