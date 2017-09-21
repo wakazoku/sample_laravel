@@ -5,9 +5,9 @@ laravelのサンプルをためす　　
 * 【Laravel超入門】開発環境の構築（VirtualBox + Vagrant + Homestead + Composer）  
 <http://qiita.com/7968/items/97dd634608f37892b18a>  
 
-* Laravelのリリース日と修正期間のまとめ　　
+* Laravelのリリース日と修正期間のまとめ  
 <http://qiita.com/ykhirao/items/576a9eea735f91350072>  
-→5.1で決定。
+→5.1で決定。  
 
 
 ## リファレンス
