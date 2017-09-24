@@ -7,7 +7,7 @@ laravelのサンプルをためす　　
 
 * Laravelのリリース日と修正期間のまとめ  
 <http://qiita.com/ykhirao/items/576a9eea735f91350072>  
-→5.1で決定。  
+→5.5で決定。  
 
 
 ## リファレンス
