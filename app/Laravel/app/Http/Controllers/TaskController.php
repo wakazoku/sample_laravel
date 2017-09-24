@@ -32,7 +32,7 @@ class TaskController extends Controller
 
     /*
      * ユーザーの全タスクをリスト表示
-     * 
+     *
      * @param  Request  $request
      * @return Response
      */
@@ -45,7 +45,7 @@ class TaskController extends Controller
 
     /*
      * 新タスクの作成
-     * 
+     *
      * @param  Request  $request
      * @return Response
      */
@@ -59,6 +59,20 @@ class TaskController extends Controller
             'name' => $request->name,
         ]);
 
+        return redirect('/tasks');
+    }
+
+    /*
+     * 指定タスクの解除
+     *
+     * @param  Request  $request
+     * @param string $taskid
+     * @return Response
+     */
+    public function destroy(Request $request, Task $task)
+    {
+        $this->authorize('destroy', $task);
+        $task->delete();
         return redirect('/tasks');
     }
 }

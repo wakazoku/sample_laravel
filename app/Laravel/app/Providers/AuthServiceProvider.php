@@ -13,11 +13,11 @@ class AuthServiceProvider extends ServiceProvider
      * @var array
      */
     protected $policies = [
-        'App\Model' => 'App\Policies\ModelPolicy',
+        'App\Task' => 'App\Policies\TaskPolicy',
     ];
 
     /**
-     * Register any authentication / authorization services.
+     * 全認証／認可サービスの登録
      *
      * @return void
      */
@@ -25,6 +25,8 @@ class AuthServiceProvider extends ServiceProvider
     {
         $this->registerPolicies();
 
-        //
+        Gate::define('update-post', function ($user, $task) {
+            return $user->id == $task->user_id;
+        });
     }
 }
