@@ -14,7 +14,8 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                    <p>You are logged in!</p>
+                    <p><a href="{{ url('/tasks') }}">ToDo List</a></p>
                 </div>
             </div>
         </div>
